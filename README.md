@@ -12,6 +12,14 @@
 
 Cara pengerjaan, silahkan update file ini tulis jawabanya di bawah ini
 
+1. guygy
+2. fuyfy
+3. 3
+4. 465
+5. 98798
+6. 00
+7. iuygutf
+
 ## Task 1 (Virtualization)
 
 - Buatlah sebuah VM dengan kententuan
