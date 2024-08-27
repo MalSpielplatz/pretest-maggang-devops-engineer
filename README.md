@@ -12,13 +12,13 @@
 
 Cara pengerjaan, silahkan update file ini tulis jawabanya di bawah ini
 
-1. guygy
-2. fuyfy
-3. 3
-4. 465
-5. 98798
-6. 00
-7. iuygutf
+1. Suatu cara yang memudahkan kolaborasi tim untuk membuat sesuatu sehingga lebih cepat dan efisien  
+2. Biasanya disebut juga Infrastructure as Code, yaitu infrastruktur seperti server, jaringan, database, dan yang lainnya di program sehingga bisa dijalankan otomatis. 
+3. Server biasanya digunakan untuk menyimpan data sesuatu, contohnya yaitu aplikasi toko online menyimpan informasi pelanggan, produk, juga pesanan yang dilakukan. Saat pengguna mencari produk, server akan merespons dengan mengirimkan data produk yang dicari pengguna.
+4. Peran server sangat penting dalam setiap tahap development suatu software, mulai dari awal pembuatan hingga tahap pemeliharaan. 
+5. Virtualisasi biasanya digunakan untuk menjalankan beberapa OS di satu device. Sedangkan, Container membantu memastikan aplikasi yang dijalankan bisa jalan di mana saja dengan cara yang lebih efisien dan mudah.
+6. Karena teknologi container memberikan banyak keuntungan sperti portabilitas, teknologi ini juga efisen sumber daya dan mudah digunakan, dan soal biaya juga lebih hemat.
+7. Teknologi yang memudahkan pengelolaan, mengotomatisasikan penyebaran, dan pengoperasian container dalam jumlah besar di dalam lingkungan yang kompleks.
 
 ## Task 1 (Virtualization)
 
