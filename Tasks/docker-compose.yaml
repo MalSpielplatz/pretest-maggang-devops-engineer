@@ -1,0 +1,42 @@
+services:
+  postgres:
+    image: postgres:14.2
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD
+      - POSTGRES_USER
+      - POSTGRES_DB
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+  backend:
+    image: dimmaryanto93/udemy-springboot-app:latest
+    environment:
+      DATABASE_HOST: postgres-db
+      DATABASE_PORT: 5432
+      DATABASE_NAME: <db-name>
+      DATABASE_USER: postgres
+      DATABASE_PASSWORD: <db-password>
+      APPLICATION_PORT: 8080
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+  frontend:
+    image: dimmaryanto93/udemy-angular-app:latest
+    environment:
+      APPLICATION_PORT: 80
+      NGINX_ROOT_DOCUMENT: /var/www/html
+      BACKEND_HOST: backend-app
+      BACKEND_PORT: 8080
+      BACKEND_CONTEXT_PATH: /
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  pg_data:
+    external: false
